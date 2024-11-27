@@ -1,0 +1,212 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.intro h2,
+.intro p {
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+
+.intro h2 {
+    font-size: 4rem;
+    font-family: 'Georgia', serif;
+    margin-bottom: 15px;
+}
+
+
+.intro p {
+    font-size: 1.5rem;
+    line-height: 1.6;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f51ed8; 
+    color: #8d3dcf;
+    line-height: 1.6;
+}
+
+
+header {
+    background: #8307a8; 
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header .logo h1 {
+    font-family: 'Georgia', serif;
+    font-size: 3rem;
+    letter-spacing: 2px;
+}
+
+header nav ul {
+    list-style: none;
+    margin-top: 15px;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 25px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+    color: #461ed4;
+}
+
+section {
+    padding: 40px 15px;
+    text-align: center;
+}
+
+.intro {
+    background: url('https://s2-g1.glbimg.com/jL4CWHol7Mh2EcxBgWQT24yPoxE=/0x0:1600x1068/1008x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2023/A/R/vmjGjqQyCyvtIaLBbARA/anacastela1.jpg'); 
+    background-size: cover;
+    background-position: center;
+    padding: 100px 20px;
+    color: white;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.intro h2 {
+    font-size: 3rem;
+    font-family: 'Georgia', serif;
+    margin-bottom: 10px;
+}
+
+.intro p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+}
+
+.sobre {
+    background-color: #ca44bf;
+    color: #333;
+    padding: 40px 15px;
+}
+
+.sobre h2 {
+    font-size: 2.5rem;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+
+.discografia {
+    background-color: #d834c2; 
+    color: #fff;
+    padding: 40px 15px;
+}
+
+.discografia h2 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+.discografia ul {
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+.discografia ul li {
+    margin-bottom: 10px;
+}
+
+
+.eventos {
+    background-color: #f714d1; 
+    color : white;
+    padding: 40px 15px;
+}
+
+.eventos h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+
+.contato {
+    background-color: #ff16f3; 
+    color: white;
+    padding: 40px 15px;
+}
+
+.contato h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.contato form {
+    text-align: left;
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.contato form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.contato form input,
+.contato form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contato form button {
+    background-color: #f334f3;
+    color: #fff;
+    padding: 15px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contato form button:hover {
+    background-color: #f500e9;
+}
+
+
+footer {
+    background-color: #c43db2; 
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    font-size: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: #ec33dd; 
+    transition: color 0.3s ease;
+}
